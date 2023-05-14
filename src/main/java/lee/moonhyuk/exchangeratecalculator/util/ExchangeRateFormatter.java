@@ -1,4 +1,4 @@
-package lee.moonhyuk.exchangeratecalculator;
+package lee.moonhyuk.exchangeratecalculator.util;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;

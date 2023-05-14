@@ -1,4 +1,4 @@
-package lee.moonhyuk.exchangeratecalculator;
+package lee.moonhyuk.exchangeratecalculator.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

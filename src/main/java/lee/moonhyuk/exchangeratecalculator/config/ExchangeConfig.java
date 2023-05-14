@@ -1,4 +1,4 @@
-package lee.moonhyuk.exchangeratecalculator;
+package lee.moonhyuk.exchangeratecalculator.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

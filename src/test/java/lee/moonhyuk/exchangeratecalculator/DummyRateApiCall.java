@@ -1,5 +1,6 @@
 package lee.moonhyuk.exchangeratecalculator;
 
+import lee.moonhyuk.exchangeratecalculator.service.RateApiCallService;
 import org.springframework.http.ResponseEntity;
 
 public class DummyRateApiCall implements RateApiCallService {

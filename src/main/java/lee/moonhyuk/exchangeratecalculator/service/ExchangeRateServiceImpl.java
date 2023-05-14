@@ -1,5 +1,6 @@
-package lee.moonhyuk.exchangeratecalculator;
+package lee.moonhyuk.exchangeratecalculator.service;
 
+import lee.moonhyuk.exchangeratecalculator.util.ExchangeRateFormatter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

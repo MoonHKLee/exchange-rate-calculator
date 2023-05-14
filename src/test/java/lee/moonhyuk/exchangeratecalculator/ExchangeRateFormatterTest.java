@@ -1,5 +1,6 @@
 package lee.moonhyuk.exchangeratecalculator;
 
+import lee.moonhyuk.exchangeratecalculator.util.ExchangeRateFormatter;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package lee.moonhyuk.exchangeratecalculator;
+package lee.moonhyuk.exchangeratecalculator.service;
 
 import org.springframework.http.ResponseEntity;
 
