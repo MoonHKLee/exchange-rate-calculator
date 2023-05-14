@@ -14,10 +14,10 @@ public class RateApiCallServiceImpl implements RateApiCallService {
     private final RestTemplate restTemplate;
 
     @Value("${rate.apiUrl}")
-    private final String apiUrl;
+    private String apiUrl;
 
     @Value("${rate.accessKey}")
-    private final String accessKey;
+    private String accessKey;
 
     @Override
     public ResponseEntity<String> getExchangeRateFromApi(String exchangeRateKey) {
