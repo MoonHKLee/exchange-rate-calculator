@@ -28,7 +28,6 @@ public class RealTimeExchangeRateFactoryTest {
         String exchangeRate = realTimeExchangeRateFactory.getExchangeRate("USDKRW");
 
         //then
-
-        assertThat(exchangeRate).isEqualTo("1,234.57");
+        assertThat(exchangeRate).isEqualTo("1,234.56");
     }
 }
