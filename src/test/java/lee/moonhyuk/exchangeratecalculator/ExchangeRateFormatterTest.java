@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class RealTimeExchangeRateFactoryTest {
+public class ExchangeRateFormatterTest {
 
     @Test
     @DisplayName("가져온 환율 정보를 천단위마다 쉼표, 소수점 둘째자리까지 표시한다.")
@@ -24,8 +24,8 @@ public class RealTimeExchangeRateFactoryTest {
         """;
 
         //when
-        RealTimeExchangeRateFactory realTimeExchangeRateFactory = new RealTimeExchangeRateFactory(json);
-        String exchangeRate = realTimeExchangeRateFactory.getExchangeRate("USDKRW");
+        ExchangeRateFormatter exchangeRateFormatter = new ExchangeRateFormatter(json);
+        String exchangeRate = exchangeRateFormatter.getExchangeRate("USDKRW");
 
         //then
         assertThat(exchangeRate).isEqualTo("1,234.56");

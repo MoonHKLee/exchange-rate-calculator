@@ -7,10 +7,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
-public class RealTimeExchangeRateFactory {
+public class ExchangeRateFormatter {
     private final String json;
     private final ObjectMapper objectMapper = new ObjectMapper();
-    public RealTimeExchangeRateFactory(String json) {
+    public ExchangeRateFormatter(String json) {
         this.json = json;
     }
 
