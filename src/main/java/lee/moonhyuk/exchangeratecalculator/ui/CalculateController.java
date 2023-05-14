@@ -14,8 +14,8 @@ public class CalculateController {
     private final ExchangeRateServiceImpl exchangeRateService;
     @GetMapping("/")
     public String getIndexPage(Model model, @RequestParam("exchangeRateKey") String exchangeRateKey) {
-        String usdkrw = exchangeRateService.getExchangeRate("USDKRW");
-        model.addAttribute("USDKRW", usdkrw);
+        String result = exchangeRateService.getExchangeRate(exchangeRateKey);
+        model.addAttribute("USDKRW", result);
         return "index";
     }
 
